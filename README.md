@@ -7,7 +7,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 19/0038926  |  Victor Eduardo Araújo Ribeiro |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0130722  |  Samuel Nogueira Bacelar |
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
