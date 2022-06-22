@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Euro Train
 
-## Getting Started
+**Número da Lista**: X<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
-First, run the development server:
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 19/0038926  |  Victor Eduardo Araújo Ribeiro |
+| 18/0130722  |  Samuel Nogueira Bacelar |
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Sobre 
+Descreva os objetivos do seu projeto e como ele funciona. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Instalação 
+**Linguagem**: xxxxxx<br>
+**Framework**: (caso exista)<br>
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Uso 
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Outros 
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
