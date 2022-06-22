@@ -28,6 +28,7 @@ export default function Home() {
     startingStation: cities[0],
     destiny: cities[1]
   })
+  
 
   function sendData(e: any) {
     e.preventDefault()
