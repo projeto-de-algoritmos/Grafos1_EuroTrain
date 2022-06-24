@@ -89,5 +89,20 @@ G.newEdge('Cologne', 'Berlim', 4.33);
 G.newEdge('Berlim', 'Hamburg', 1.58);
 
 // Usando as Funções
-//G.printGraph()
-//export default G
+const bfs = function (graph, start, end) {
+    var queue = [];
+    queue.push([start]);
+    while (queue.length > 0) {
+        var path = queue.shift()
+        node = path[path.length-1]
+        if (node === end) {
+            return path;
+        }
+        for (var adjascent of graph[node]) {
+            var new_path = [...path]
+            new_path.push(adjascent)
+            queue.push(new_path) 
+        }
+    }
+}
+console.log(bfs(G.AdjList, 'Paris', 'Bologna'))
