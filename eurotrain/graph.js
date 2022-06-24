@@ -1,30 +1,29 @@
 class Graph {
     constructor(QVertices) {
         this.noOfVertices = QVertices;
-        this.AdjList = new Map();
+        this.AdjList = {};
     }
 
     newVertice(v) {
-        this.AdjList.set(v, []);
+        this.AdjList[v] = []
     }
+
     newEdge(v, w, d) {
-        this.AdjList.get(v).push(w)
-        this.AdjList.get(w).push(v)
+        this.AdjList[v].push(w);
+        this.AdjList[w].push(v)
     }
-        
+
     printGraph() {
-        var get_keys = this.AdjList.keys();
-     
-        for (var i of get_keys) {
-            var get_values = this.AdjList.get(i);
+        var get_keys = Object.keys(this.AdjList);
+
+        for (var key of get_keys) {
+            var get_values = this.AdjList[key];
             var conc = "";
             for (var j of get_values)
                 conc += j + " ";
-            console.log(i + " -> " + conc);
+            console.log(key + " -> " + conc);
         }
     }
-
-
 }
 
 // Criando a classe de filas 
@@ -32,7 +31,6 @@ class Queue {
     constructor() {
         this.items = [];
     }
-                  
     enqueue(element) {    
         this.items.push(element);   
     }
@@ -90,4 +88,5 @@ G.newEdge('Cologne', 'Berlim', 8);
 G.newEdge('Berlim', 'Hamburg', 8);
 
 // Usando as Funções
-//G.printGraph();
+//G.printGraph()
+//export default G
