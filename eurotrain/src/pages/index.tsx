@@ -1,3 +1,4 @@
+import { useRouter } from "next/router"
 import { useState } from "react"
 import { Container,
   Card,
@@ -24,7 +25,8 @@ const cities = [
 ]
 
 export default function Home() {
-  const [routeData, setRouteData] = useState<routeInput>({
+  const router = useRouter();
+  const [trainRouteData, setTrainRouteData] = useState<routeInput>({
     startingStation: cities[0],
     destiny: cities[1]
   })
@@ -32,7 +34,7 @@ export default function Home() {
 
   function sendData(e: any) {
     e.preventDefault()
-    console.log(routeData);
+    router.push({pathname: 'result', query: trainRouteData})
   }
   return (
     <Container>
@@ -49,9 +51,9 @@ export default function Home() {
                       id="startingPoint"
                       className="mb-3"
                       type="select"
-                      defaultValue={routeData.startingStation}
+                      defaultValue={trainRouteData.startingStation}
                       onChange={(e) => {
-                        setRouteData({...routeData, startingStation: e.target.value});
+                        setTrainRouteData({...trainRouteData, startingStation: e.target.value});
                       }}
                     >
                       {
@@ -71,9 +73,9 @@ export default function Home() {
                       id="endingPoint"
                       className="mb-3"
                       type="select"
-                      defaultValue={routeData.destiny}
+                      defaultValue={trainRouteData.destiny}
                       onChange={(e) => {
-                        setRouteData({...routeData, destiny: e.target.value});
+                        setTrainRouteData({...trainRouteData, destiny: e.target.value});
                       }}
                     >
                     {
