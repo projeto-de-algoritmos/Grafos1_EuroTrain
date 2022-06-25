@@ -1,3 +1,4 @@
+import { vertices } from "core/graph"
 import { useRouter } from "next/router"
 import { useState } from "react"
 import { Container,
@@ -17,12 +18,7 @@ type routeInput = {
   destiny: string
 }
 
-const cities = [
-  'Paris',
-  'Roma',
-  'Napoles',
-  'Berlim'
-]
+const cities = vertices
 
 export default function Home() {
   const router = useRouter();
@@ -38,7 +34,13 @@ export default function Home() {
   }
   return (
     <Container>
-      <Row style={{height: '100vh'}}className="align-items-center justify-content-center">
+      <div style={{margin: '2em 0'}}>
+        <h1 style={{textAlign: 'center'}}>Euro Train</h1>
+        <p className="fw-bold text-muted" style={{textAlign: 'center'}}>
+        Seu melhor planejador de rotas ferroviárias Europeias
+        </p>
+      </div>  
+      <Row style={{height: '70vh'}}className="align-items-center justify-content-center">
         <Col lg={8}>
           <Card>
             <CardBody>
@@ -67,7 +69,7 @@ export default function Home() {
                 </FormGroup>
                 <FormGroup>
                     <Label for='endingPoint'>
-                      Selecione o ponto de partida
+                      Selecione o destino
                     </Label>
                     <Input
                       id="endingPoint"

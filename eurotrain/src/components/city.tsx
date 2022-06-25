@@ -1,10 +1,11 @@
 import { Card, CardBody } from "reactstrap";
 
-export default function City({city}) {
+export default function City({city, position}) {
+  if (position == undefined) position = 'secondary'
   return (
-  <Card style={{width: 250}}>
+  <Card color={position} style={{width: 250}}>
     <CardBody>
-      {city}
+      <h4>{city}</h4>
     </CardBody>
   </Card>
   )
