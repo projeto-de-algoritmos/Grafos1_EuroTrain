@@ -14,7 +14,7 @@ Pegamos o mapa ferroviário da Europa ([presente nesse site ](https://www.eurail
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/78758172/175770960-1da3a0ff-eb6c-4057-9059-6d89869b46c4.png)  
-![image](https://user-images.githubusercontent.com/78758172/175770975-5b785711-51e4-4723-a7c9-ea907ee083c4.png)  
+![image](https://user-images.githubusercontent.com/78758172/175771170-6a4c2b23-5263-4f1e-813b-9ef70066bdda.png)
 
 ## Instalação 
 **Linguagem**: Typescript<br>
