@@ -23,7 +23,7 @@ necessário possuir instalado na máquina:
 * node
 * yarn
 
-Para rodar a aplicação basta em seu terminal rodar `yarn install` e logo após isso rodar `yarn dev`
+Para rodar a aplicação basta estar na raiz do projeto, em seu terminal entrar no diretório `eurotrain` rodar `yarn install` e logo após isso rodar `yarn dev`.
   
 ## Uso 
 Para usar basta entra [nesse link](https://grafos1-euro-train.vercel.app/), e depois disso selecionar a cidade de origem e a cidade de destino.  
