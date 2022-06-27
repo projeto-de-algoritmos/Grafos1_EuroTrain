@@ -13,7 +13,8 @@
 Pegamos o mapa ferroviário da Europa ([presente nesse site ](https://www.eurail.com/pt/plan-your-trip/railway-map)) e usamos os dados de 3 países (França, Itália e Alemanha) depois definimos que os vértices seriam as estações de trem e as arestas seriam as linhas de trem. O projeto consiste em o usuário poder escolher uma origem e um destino, e receber a rota que passará pelo menor número de estações até chegar em seu destino. 
 
 ## Apresentação
-[Vídeo de apresentação do projeto](Apresenta%C3%A7%C3%A3o%20PA%20-%20Grafos%201.mp4)
+[Vídeo de apresentação para download](Apresenta%C3%A7%C3%A3o%20PA%20-%20Grafos%201.mp4)  
+[Vídeo de apresentação no Youtube](https://youtu.be/ysuK2gRStA4)
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/78758172/175771198-79e25f22-027e-4900-abf5-ab3d87a3baf4.png)
